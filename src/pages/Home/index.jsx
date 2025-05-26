@@ -1,3 +1,4 @@
+import Banner from "../../components/Banner"
 import { Menu } from "../../components/Menu"
 import "./styles.css"
 
@@ -6,7 +7,7 @@ function Home(){
     <div className="home">
 
         <Menu />
-        
+        <Banner />
         <div className="home-principal">
 
         </div>
