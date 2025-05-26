@@ -1,0 +1,33 @@
+.menu-principal{
+    width: 100vw;
+    height: 10vh;
+    background-color: #d9dcd6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3a7ca5;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    h3{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    ul{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    li{
+        font-size: 26px;
+        list-style: none;
+        border-radius: 10px;
+        text-align: center;
+        color: #16425b;
+
+        &:hover{
+            scale: 1.02;
+        }
+    }
+}
