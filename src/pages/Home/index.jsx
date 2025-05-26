@@ -1,4 +1,5 @@
 import Banner from "../../components/Banner"
+import Cards from "../../components/Cards"
 import { Menu } from "../../components/Menu"
 import "./styles.css"
 
@@ -8,9 +9,12 @@ function Home(){
 
         <Menu />
         <Banner />
-        <div className="home-principal">
-
-        </div>
+        <Cards />
+        <Menu />
+        <Cards />
+        <Cards />
+        <Cards />
+        <Cards />
         
     </div>
  )   
